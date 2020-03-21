@@ -7,3 +7,4 @@ end
 set -x RUSTUP_DIST_SERVER https://mirrors.tuna.tsinghua.edu.cn/rustup
 set -x CLASHHOME /home/ragdoll/Documents/Programs/clash
 set -x LOGHOME /home/ragdoll/.log
+set -x DOOMDIR $HOME/doom/.doom.d

@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+cd $DOOMDIR/../.emacs.d/bin
+bash doom run &

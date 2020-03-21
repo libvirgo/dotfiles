@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:abstract=/home/ragdoll/.cache/ibus/dbus-amy52IQ0,guid=0c78ce27860c2727b1f6cc695e75caea
-IBUS_DAEMON_PID=959
+IBUS_ADDRESS=unix:abstract=/home/ragdoll/.cache/ibus/dbus-KOEE3SLP,guid=632c7cfaeb685808b7750fa15e75e684
+IBUS_DAEMON_PID=977
