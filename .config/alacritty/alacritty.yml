@@ -1,0 +1,7 @@
+tabspaces: 4
+font:
+  normal:
+    family: Noto Sans Mono
+    style: Regular
+  size: 12
+background_opacity: 0.5

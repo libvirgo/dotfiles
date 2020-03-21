@@ -1,0 +1,5 @@
+#!/usr/bin/fish
+
+set -x _JAVA_AWT_WM_NONREPARENTING 1 
+set -x AWT_TOOLKIT MToolkit 
+wmname LG3D &

@@ -1,0 +1,14 @@
+#!/usr/bin/fish
+
+cd $HOME/.config
+cp -rf alacritty bspwm dconf dunst fish mpd picom ibus polybar rofi rofimenu sxhkd $HOME/Documents/Github/dotfiles/.config/
+cd $HOME
+mkdir -p $HOME/Documents/Github/dotfiles/.local/share/fonts
+cp -rf .local/share/fonts/* $HOME/Documents/Github/dotfiles/.local/share/fonts/
+cp -rf .bin $HOME/Documents/Github/dotfiles/
+cd $HOME/Documents/Github/dotfiles/.config/ibus/rime/
+rm -rf build plum
+
+
+
+
