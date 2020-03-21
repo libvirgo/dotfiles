@@ -248,10 +248,10 @@ mod5 + @button1
 
 # run applications
 super
-	launcher
+	~/.config/rofi/launchers/launcher.sh
 
 super + space
-	rofi -show
+	~/.config/rofi/android/powermenu.sh
 
 #super + p
 #	dmenu_recent -h $PANEL_HEIGHT -fn 'xos4 Terminus:size=15' -i
@@ -269,7 +269,7 @@ super + shift + b
 	$BROWSER
     		
 super + e
-	 ranger
+	 alacritty -e ranger
 #spacefm -n
 
 Print
@@ -281,13 +281,13 @@ Print
 #
 
 XF86AudioRaiseVolume
-	volume up
+	amixer -Mq set Master,0.5%+ unmute && notify-send -u low -t 1500 "Volume Up"
 
 XF86AudioLowerVolume
-	volume down
+	amixer -Mq set Master,0.5%- unmute && notify-send -u low -t 1500 "Volume Down"
 
 XF86AudioMute
-	volume mute
+	amixer -q set Master toggle
 	
 XF86MonBrightnessDown
  light -U 5 

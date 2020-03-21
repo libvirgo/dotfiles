@@ -5,7 +5,7 @@
 
 SDIR="$HOME/.config/polybar/scripts"
 
-MENU="$(rofi -sep "|" -dmenu -i -p 'Select' -location 5 -columns 1 -xoffset -290 -yoffset -1285 -width 12 -hide-scrollbar -line-padding 4 -padding 20 -lines 10 <<< " amber| blue| blue-grey| brown| cyan| deep-orange| deep-purple| green| grey| indigo| light-blue| light-green| lime| orange| pink| purple| red| teal| yellow| amber-dark| blue-dark| blue-grey-dark| brown-dark| cyan-dark| deep-orange-dark| deep-purple-dark| green-dark| grey-dark| indigo-dark| light-blue-dark| light-green-dark| lime-dark| orange-dark| pink-dark| purple-dark| red-dark| teal-dark| yellow-dark")"
+MENU="$(rofi -sep "|" -theme ~/.config/rofi/launchers/style_normal_purple_alt.rasi -dmenu -i -p 'Select' <<< " amber| blue| blue-grey| brown| cyan| deep-orange| deep-purple| green| grey| indigo| light-blue| light-green| lime| orange| pink| purple| red| teal| yellow| amber-dark| blue-dark| blue-grey-dark| brown-dark| cyan-dark| deep-orange-dark| deep-purple-dark| green-dark| grey-dark| indigo-dark| light-blue-dark| light-green-dark| lime-dark| orange-dark| pink-dark| purple-dark| red-dark| teal-dark| yellow-dark")"
             case "$MENU" in
 				## Light Colors
 				*amber) $SDIR/colors-light.sh -amber ;;
