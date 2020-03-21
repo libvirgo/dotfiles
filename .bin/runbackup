@@ -7,7 +7,7 @@ mkdir -p $HOME/Documents/Github/dotfiles/.local/share/fonts
 cp -rf .local/share/fonts/* $HOME/Documents/Github/dotfiles/.local/share/fonts/
 cp -rf .bin $HOME/Documents/Github/dotfiles/
 cd $HOME/Documents/Github/dotfiles/.config/ibus/rime/
-rm -rf build plum
+rm -rf build plum ../bus
 
 
 
