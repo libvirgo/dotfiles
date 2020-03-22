@@ -1,0 +1,2 @@
+#!/usr/bin/fish
+rofi -no-lazy-grab -show combi -theme ~/.config/rofi/launchers/style_normal_rainbow_sidebar.rasi
